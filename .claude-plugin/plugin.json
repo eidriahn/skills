@@ -1,0 +1,11 @@
+{
+  "name": "eidriahn",
+  "description": "Eidriahn's personal agent skills, shared across machines.",
+  "author": {
+    "name": "Eidriahn",
+    "url": "https://github.com/Eidriahn"
+  },
+  "homepage": "https://github.com/Eidriahn/skills",
+  "repository": "https://github.com/Eidriahn/skills",
+  "license": "MIT"
+}

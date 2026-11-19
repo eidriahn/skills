@@ -1,0 +1,15 @@
+{
+  "name": "eidriahn-skills",
+  "owner": {
+    "name": "Eidriahn",
+    "url": "https://github.com/Eidriahn"
+  },
+  "description": "Eidriahn's personal skills marketplace.",
+  "plugins": [
+    {
+      "name": "eidriahn",
+      "source": "./",
+      "description": "Eidriahn's personal agent skills, shared across machines."
+    }
+  ]
+}
