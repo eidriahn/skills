@@ -18,6 +18,6 @@ Every comment is **terse**: it states the outcome (what changed, and that it is 
 - **Outcome first**, past tense, one line per change: "Moved validation into the parser." "Renamed `fetchUser` to `getUser`."
 - **One to three lines.** A reply to a single review thread is usually one: "Done, `retry` now backs off exponentially."
 - **Long when the meaning needs it.** When a point cannot be stated in three lines without losing meaning (a trade-off, a disagreement, a design explanation), write it out in full, still with every sentence earning its place, and mark the draft **long** for the user's approval.
-- **The change is the subject.** Describe what the code now does. The reviewer reads the code, not the history, so refer to commits only when the reviewer needs one to find the change (for example, they asked for it in its own commit), and then by its title.
+- **The change is the subject.** Describe what the code now does. The reviewer reads the code, not the history, so never mention commits: no SHAs, no commit links, no "Fixed in `ac6ac19`". Write "Moved the check into `parse()`.", not "Fixed in `ac6ac19`, moved the check into `parse()`."
 - **Why only when it diverges**: add a short reason when the change differs from what the reviewer asked for, or when you chose not to change something.
 - Wrap identifiers, files and commands in backticks.
