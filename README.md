@@ -23,3 +23,4 @@ Both update automatically when `main` changes. Skills are invoked as `/eidriahn:
 ## Skills
 
 - [pr-comment](./skills/pr-comment/SKILL.md): writes terse, outcome-first comments and review replies on your pull requests.
+- [writing](./skills/writing/SKILL.md): drafts messages, emails, and docs in your own voice, with the AI tells cut.
